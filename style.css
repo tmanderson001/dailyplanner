@@ -7,7 +7,7 @@ body {
 textarea{
   background: transparent;
   border: none;
-  resize: none;
+  resize: block;
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
@@ -23,6 +23,8 @@ textarea{
 
 .description{
   white-space: pre-wrap;
+  width: 100%;
+  height: 100%;
 }
 
 .time-block{
@@ -63,9 +65,30 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  width: 100%;
+  height: 50%
+}
+
+.clearBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: gray;
+  color: white;
+  width: 100%;
+  height: 50%
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.today{
+  text-align: center;
+}
+  .col-lg-1, .col-lg-10{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
